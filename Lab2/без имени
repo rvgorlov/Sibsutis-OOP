@@ -1,0 +1,17 @@
+class IntArr 
+{
+private:
+		int _size;
+		int *pia; 
+public:
+		// конструктор класса
+		IntArr( int sz = 10 ) // метод вызывается при создании массива 
+		{					  // конструктор, не возвращает ничего
+			_size = sise;
+			pia = new int[_size];
+			for (int i = 0; i < _size; i++)
+				pia[i] = 0; 
+		}
+		
+		
+}
